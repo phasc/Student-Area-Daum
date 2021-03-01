@@ -23,6 +23,7 @@ class App extends Component {
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
+          <h1>Current version is {React.version}</h1>
         </p>
       </div>
     );
