@@ -19,6 +19,18 @@ app.get("/student", async (req, res) => {
   res.render("student/index");
 });
 
+app.get("/student/user", async (req, res) => {
+  res.render("student/user");
+});
+
+app.get("/student/add-drop", async (req, res) => {
+  res.render("student/add-drop");
+});
+
+app.get("/student/schedule", async (req, res) => {
+  res.render("student/schedule");
+});
+
 
 
 const PORT = 3000;
