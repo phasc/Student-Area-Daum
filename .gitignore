@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 server/node_modules
+new-site/node_modules
 
 # testing
 /coverage
